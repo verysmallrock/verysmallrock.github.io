@@ -4,5 +4,5 @@ window.storyFormat({
   "author": "Luke Rymarz",
   "description": "Export Twine 2 story in Ponysaurus format",
   "proofing": false,
-  "source": "{{STORY_DATA}}"
+  "source": "<html><head><script type='text/javascript'>var PonyTwine = {convertData: function(){alert('converted')}};</script></</head><body>{{STORY_DATA}}</body></html>"
 });
